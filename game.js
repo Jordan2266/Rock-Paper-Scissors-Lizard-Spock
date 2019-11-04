@@ -66,13 +66,13 @@ if (computer_choice == "R" and user_choice == "P") or \
 elif (computer_choice == "R" and user_choice == "S") or \
 	(computer_choice == "P" and user_choice == "R") or \
 	(computer_choice == "S" and user_choice == "P") or \
-  (computer_choice == "R" and user_choice == "L") or \
-  (computer_choice == "P" and user_choice == "SPK") or \
-  (computer_choice == "S" and user_choice == "L") or \
-  (computer_choice == "L" and user_choice == "SPK") or \
-  (computer_choice == "L" and user_choice == "P") or \
-  (computer_choice == "SPK" and user_choice == "R") or \
-  (computer_choice == "SPK" and user_choice == "S"):
+        (computer_choice == "R" and user_choice == "L") or \
+        (computer_choice == "P" and user_choice == "SPK") or \
+        (computer_choice == "S" and user_choice == "L") or \
+        (computer_choice == "L" and user_choice == "SPK") or \
+        (computer_choice == "L" and user_choice == "P") or \
+        (computer_choice == "SPK" and user_choice == "R") or \
+        (computer_choice == "SPK" and user_choice == "S"):
 	print("You lose!")
 
 #Tie
