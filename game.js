@@ -1,7 +1,11 @@
+ 
+var R = 1
+var P = 2
+var S = 3
+var L = 4
+var SPK = 5
 
 user_choice = input("Please choose (1) Rock, (2) Paper, (3) Scissors, (4) Lizard, or (5) Spock: ").upper()
-
-
 
 #Let the computer make a choice
 #1 = Rock
