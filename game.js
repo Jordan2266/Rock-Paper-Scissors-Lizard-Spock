@@ -1,6 +1,7 @@
-<script>
 
 user_choice = input("Please choose (1) Rock, (2) Paper, (3) Scissors, (4) Lizard, or (5) Spock: ").upper()
+
+
 
 #Let the computer make a choice
 #1 = Rock
@@ -83,4 +84,4 @@ elif (computer_choice == "R" and user_choice == "S") or \
 
 elif computer_choice == user_choice:
 	print("Tie!")
-</script>
+
