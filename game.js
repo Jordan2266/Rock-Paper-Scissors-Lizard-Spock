@@ -1,4 +1,4 @@
-<script src="https://jordan2266.github.io/Rock-Paper-Scissors-Lizard-Spock/" /script> 
+<script src="https://raw.githubusercontent.com/Jordan2266/Rock-Paper-Scissors-Lizard-Spock/master/README.md" /script> 
 	
 var 1 = "rock" 
 var 2 = "paper"
