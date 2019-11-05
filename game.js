@@ -1,10 +1,10 @@
 <script src="https://jordan2266.github.io/Rock-Paper-Scissors-Lizard-Spock/" /script> 
 	
-var R = 1
-var P = 2
-var S = 3
-var L = 4
-var SPK = 5
+var 1 = "rock" 
+var 2 = "paper"
+var 3 = "scissors"
+var 4 = "lizard"
+var 5 = "spock"
  
 
 user_choice = input("Please choose (1) Rock, (2) Paper, (3) Scissors, (4) Lizard, or (5) Spock: ").upper()
@@ -15,101 +15,87 @@ user_choice = input("Please choose (1) Rock, (2) Paper, (3) Scissors, (4) Lizard
 #3 = Scissors
 #4 = Lizard
 #5 = Spock
-random_number = random.randint(1,5)
 
-#Convert random number to R, P, S, L or SPK for Rock, Paper, Scissors, Lizard, and Spock
-if random_number == 1:
-	computer_choice = "R"
-
-elif random_number == 2:
-	computer_choice = "P"
-
-elif random_number == 3:
-	computer_choice = "S"
-
-elif random_number == 4:
-  computer_choice = "L"
-
-elif random_number == 5:
-  computer_choice = "SPK"
-
-return result
+<script>
+var computerChoice = Math.floor(Math.random() * 5) + 1;
+if (computerChoice == 1) {
+    computerChoice = "rock";
+} else if (computerChoice == 2) {
+    computerChoice = "paper";
+} else if (computerChoice == 3) {
+    computerChoice = "scissors";
+} else if (computerChoice == 4) {
+    computerChoice = "lizard";
+} else {
+    computerChoice = "spock";
+}
+</script>
 
 
 
-if random_number == "R":
-        computer_choice = 1
+//Rock
+else if (choice1 === "rock") {
+    if (choice2 === "scissors") {
+        alert("Rock wins!");
+    } else if (choice2 === "paper") {
+        alert("Paper wins!");
+    } else if (choice2 === "lizard") {
+        alert("Rock wins!");
+    } else {
+        alert("Spock wins!");
+    }
+}
 
-elif random_number == "P"
-        computer_choice = 2
+//Paper
+else if (choice1 === "paper") {
+    if (choice2 === "scissors") {
+        alert("Scissors wins!");
+    } else if (choice2 === "rock") {
+        alert("Paper wins!");
+    } else if (choice2 === "lizard") {
+        alert("Lizard wins!");
+    } else {
+        alert("Paper wins!");
+    }
+}
 
-elif random_number == "S"
-        computer_choice = 3
+//Scissors
+else if (choice1 === "scissors") {
+    if (choice2 === "paper") {
+        alert("Scissors wins!");
+    } else if (choice2 === "rock") {
+        alert("Rock wins!");
+    } else if (choice2 === "lizard") {
+        alert("Scissors wins!");
+    } else {
+        alert("Spock wins!");
+    }
+}
 
-elif random_number == "L"
-        computer_choice = 4
+//Lizard
+else if (choice1 === "lizard") {
+    if (choice2 === "scissors") {
+        alert("Scissors wins!");
+    } else if (choice2 === "rock") {
+        alert("Rock wins!");
+    } else if (choice2 === "paper") {
+        alert("Lizard wins!");
+    } else {
+        alert("Lizard wins!");
+    }
+}
 
-elif random_number == "SPK"
-        computer_choice = 5
-
-return result
-
-
-#User wins
-#Computer: R    User: P
-#Computer: P    User: S
-#Computer: S    User: R
-#Computer: L    User: R
-#Computer: L    User: S
-#Computer: SPK  User: L
-#Computer: P    User: L
-#Computer: SPK  User: P
-#Computer: R    User: SPK
-#Computer: S    User: SPK
-
-if (computer_choice == "R" and user_choice == "P") or \
-	(computer_choice == "P" and user_choice == "S") or \
-	(computer_choice == "S" and user_choice == "R") or \
-	(computer_choice == "L" and user_choice == "R") or \
-	(computer_choice == "L" and user_choice == "S") or \
-	(computer_choice == "SPK" and user_choice == "L") or \
-	(computer_choice == "P" and user_choice == "L") or \
-	(computer_choice == "SPK" and user_choice == "P") or \
-	(computer_choice == "R" and user_choice == "SPK") or \
-	(computer_choice == "S" and user_choice == "SPK") or \
-	print("You win!")
-
-#Computer wins
-#Computer: R    User: S
-#Computer: P    User: R
-#Computer: S    User: P
-#Computer: R    User: L
-#Computer: P    User: SPK
-#Computer: S    User: L
-#Computer: L    User: SPK
-#Computer: L    User: P
-#Computer: SPK  User: R
-#Computer: SPK  User: S
-
-elif (computer_choice == "R" and user_choice == "S") or \
-	(computer_choice == "P" and user_choice == "R") or \
-	(computer_choice == "S" and user_choice == "P") or \
-        (computer_choice == "R" and user_choice == "L") or \
-        (computer_choice == "P" and user_choice == "SPK") or \
-        (computer_choice == "S" and user_choice == "L") or \
-        (computer_choice == "L" and user_choice == "SPK") or \
-        (computer_choice == "L" and user_choice == "P") or \
-        (computer_choice == "SPK" and user_choice == "R") or \
-        (computer_choice == "SPK" and user_choice == "S"):
-	print("You lose!")
-
-#Tie
-#Computer: R    User: R
-#Computer: P    User: P
-#Computer: S    User: S
-#Computer: L    User: L
-#Computer: SPK  User: SPK
-
-elif computer_choice == user_choice:
-	print("Tie!")
+//Spock
+else if (choice1 === "spock") {
+    if (choice2 === "scissors") {
+        alert("Spock wins!");
+    } else if (choice2 === "rock") {
+        alert("Spock wins!");
+    } else if (choice2 === "lizard") {
+        alert("Lizard wins!");
+    } else {
+        alert("Paper wins!");
+    }
+}
+};
 
