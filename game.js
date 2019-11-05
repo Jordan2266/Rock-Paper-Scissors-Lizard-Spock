@@ -8,6 +8,8 @@ var 5 = "spock"
  
 
 user_choice = input("Please choose (1) Rock, (2) Paper, (3) Scissors, (4) Lizard, or (5) Spock: ").upper()
+var name = window.prompt("Enter chosen sign: ");
+
 
 #Let the computer make a choice
 #1 = Rock
