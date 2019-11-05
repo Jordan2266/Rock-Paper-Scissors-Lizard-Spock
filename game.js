@@ -1,10 +1,11 @@
 <script src="README.md" /script> 
-
+	
 var R = 1
 var P = 2
 var S = 3
 var L = 4
 var SPK = 5
+ 
 
 user_choice = input("Please choose (1) Rock, (2) Paper, (3) Scissors, (4) Lizard, or (5) Spock: ").upper()
 
@@ -31,6 +32,28 @@ elif random_number == 4:
 
 elif random_number == 5:
   computer_choice = "SPK"
+
+return result
+
+
+
+if random_number == "R":
+        computer_choice = 1
+
+elif random_number == "P"
+        computer_choice = 2
+
+elif random_number == "S"
+        computer_choice = 3
+
+elif random_number == "L"
+        computer_choice = 4
+
+elif random_number == "SPK"
+        computer_choice = 5
+
+return result
+
 
 #User wins
 #Computer: R    User: P
