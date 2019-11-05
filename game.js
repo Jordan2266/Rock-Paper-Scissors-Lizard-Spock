@@ -1,4 +1,4 @@
-<script src="README.md" /script> 
+<script src="https://jordan2266.github.io/Rock-Paper-Scissors-Lizard-Spock/" /script> 
 	
 var R = 1
 var P = 2
