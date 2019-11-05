@@ -1,4 +1,5 @@
- 
+<script src="README.md" /script> 
+
 var R = 1
 var P = 2
 var S = 3
