@@ -19,4 +19,6 @@
 </ul>
 
 
-<head><script src="https://github.com/Jordan2266/Rock-Paper-Scissors-Lizard-Spock/blob/15edb770768322912925a7eac8a944dd9827c59b/game.js"> </script></head>
+<head>
+  <script src="https://raw.githubusercontent.com/Jordan2266/Rock-Paper-Scissors-Lizard-Spock/master/game.js"></script>
+</head>
