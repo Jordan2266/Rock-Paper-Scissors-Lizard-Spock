@@ -18,3 +18,5 @@
 <li>Press 5 for Spock</li>  
 </ul>
 
+
+<head><script src="game.js"> </script></head>
