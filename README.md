@@ -17,8 +17,6 @@
 <li>Press 4 for Lizard</li>
 <li>Press 5 for Spock</li>  
 </ul>
-
-
-<head>
+<p>
   <script src="https://raw.githubusercontent.com/Jordan2266/Rock-Paper-Scissors-Lizard-Spock/master/game.js"></script>
-</head>
+</p>
