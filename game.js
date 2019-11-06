@@ -1,11 +1,10 @@
-<script src="https://raw.githubusercontent.com/Jordan2266/Rock-Paper-Scissors-Lizard-Spock/master/README.md" /script> 
 	
 var 1 = "rock" 
 var 2 = "paper"
 var 3 = "scissors"
 var 4 = "lizard"
 var 5 = "spock"
- 
+
 
 user_choice = input("Please choose (1) Rock, (2) Paper, (3) Scissors, (4) Lizard, or (5) Spock: ").upper()
 <button onclick="myFunction()">Start</button>
