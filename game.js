@@ -19,6 +19,7 @@ var name = window.prompt("Enter chosen sign: ");
 #5 = Spock
 
 <script>
+function myfunction() {
 var computerChoice = Math.floor(Math.random() * 5) + 1;
 if (computerChoice == 1) {
     computerChoice = "rock";
@@ -100,4 +101,4 @@ else if (choice1 === "spock") {
     }
 }
 };
-
+}
