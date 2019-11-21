@@ -19,6 +19,8 @@ var name = window.prompt("Enter chosen sign: ");
 
 <script>
 function myfunction() {
+user_choice = input("Please choose (1) Rock, (2) Paper, (3) Scissors, (4) Lizard, or (5) Spock: ").upper()
+var name = window.prompt("Enter chosen sign: ");	
 var computerChoice = Math.floor(Math.random() * 5) + 1;
 if (computerChoice == 1) {
     computerChoice = "rock";
