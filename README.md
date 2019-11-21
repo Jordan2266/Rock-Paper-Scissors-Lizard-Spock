@@ -18,5 +18,6 @@
 <li>Press 5 for Spock</li>  
 </ul>
 <p>
-  <script src="game.js"></script>
+ <button onclick= "myfunction()">Start</button>
 </p>
+
