@@ -18,6 +18,6 @@
 <li>Press 5 for Spock</li>  
 </ul>
 <p>
- <button onclick= "myfunction()">Start</button>
+ <button onclick= "start()">Start</button>
 </p>
 
