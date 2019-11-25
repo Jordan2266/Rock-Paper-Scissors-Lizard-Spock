@@ -20,4 +20,5 @@
 <p>
  <button onclick= "start()">Start</button>
 </p>
+<p id="demo"></p>
 
