@@ -4,7 +4,6 @@ var 2 = "paper"
 var 3 = "scissors"
 var 4 = "lizard"
 var 5 = "spock"
-var name = prompt("Enter chosen sign: ");
 
 
 
@@ -15,10 +14,10 @@ var name = prompt("Enter chosen sign: ");
 #4 = Lizard
 #5 = Spock
 
-<button onclick="myFunction()">Start</button>
+<button onclick="start()">Start</button>
 
 <script>
-function myfunction() {
+function start() {
 var user = prompt("Please choose (1) Rock, (2) Paper, (3) Scissors, (4) Lizard, or (5) Spock: ").upper()	
 var computerChoice = Math.floor(Math.random() * 5) + 1;
 if (computerChoice == 1) {
