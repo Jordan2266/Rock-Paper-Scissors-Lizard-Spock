@@ -14,7 +14,6 @@ var 5 = "spock"
 #4 = Lizard
 #5 = Spock
 
-<button onclick="start()">Start</button>
 
 <script>
 function start() {
