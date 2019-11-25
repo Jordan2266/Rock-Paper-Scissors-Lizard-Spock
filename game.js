@@ -36,6 +36,7 @@ if (computerChoice == 1) {
 
 
 //Rock
+<scrpit>	
 else if (choice1 === "rock") {
     if (choice2 === "scissors") {
         alert("Rock wins!");
@@ -47,8 +48,10 @@ else if (choice1 === "rock") {
         alert("Spock wins!");
     }
 }
-
+</script>
+	
 //Paper
+<Script>	
 else if (choice1 === "paper") {
     if (choice2 === "scissors") {
         alert("Scissors wins!");
@@ -60,8 +63,10 @@ else if (choice1 === "paper") {
         alert("Paper wins!");
     }
 }
-
+</script>
+	
 //Scissors
+<script>
 else if (choice1 === "scissors") {
     if (choice2 === "paper") {
         alert("Scissors wins!");
@@ -73,8 +78,10 @@ else if (choice1 === "scissors") {
         alert("Spock wins!");
     }
 }
-
+</script>
+	
 //Lizard
+<script>	
 else if (choice1 === "lizard") {
     if (choice2 === "scissors") {
         alert("Scissors wins!");
@@ -86,8 +93,10 @@ else if (choice1 === "lizard") {
         alert("Lizard wins!");
     }
 }
-
+</script>
+	
 //Spock
+<script>	
 else if (choice1 === "spock") {
     if (choice2 === "scissors") {
         alert("Spock wins!");
@@ -101,3 +110,4 @@ else if (choice1 === "spock") {
 }
 };
 }
+</script>
