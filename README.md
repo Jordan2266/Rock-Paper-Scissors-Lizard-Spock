@@ -25,7 +25,7 @@
 <p id="demo"></p>
 
 <p>
- <button type="button" onclick= "myFunction( var userchoice = prompt("Please choose (1) Rock, (2) Paper, (3) Scissors, (4) Lizard, or (5) Spock: ")">Start</button>
+ <button type="button" onclick= "myFunction(Start)">Start</button>
 </p>
 
 
