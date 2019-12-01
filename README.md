@@ -17,10 +17,13 @@
 <li>Type 4 for Lizard</li>
 <li>Type 5 for Spock</li>  
 </ul>
+
 <body>
  <script src="game.js"></script> 
 </body>
+
 <p id="demo"></p>
+
 <p>
  <button type="button" onclick= "start()">Start</button>
 </p>
