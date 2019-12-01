@@ -17,6 +17,10 @@
 <li>Press 4 for Lizard</li>
 <li>Press 5 for Spock</li>  
 </ul>
+<body>
+ <script src="game.js"></script> 
+</body>
+
 <p>
  <button onclick= "start()">Start</button>
 </p>
