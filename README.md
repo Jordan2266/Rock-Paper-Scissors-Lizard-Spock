@@ -20,9 +20,9 @@
 <body>
  <script src="game.js"></script> 
 </body>
-
+<p id="demo"></p>
 <p>
  <button onclick= "start()">Start</button>
 </p>
-<p id="demo"></p>
+
 
