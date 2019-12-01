@@ -8,14 +8,14 @@
 <li>Lizard beats Spock and Paper</li>
 <li>Spock beats Scissors and Rock</li>  
 </ul>
-<p><b>You will play against 2 other players which will be controlled by the computer. The first player to reach a score of 10 will win!</b></p>
+<p><b>You will play against 1 other player which will be controlled by the computer. The first player to reach a score of 10 will win!</b></p>
 <p><b>Controls:</b></p>
 <ul>
-<li>Press 1 for Rock</li>
-<li>Press 2 for Paper</li>
-<li>Press 3 for Scissors</li>
-<li>Press 4 for Lizard</li>
-<li>Press 5 for Spock</li>  
+<li>Type 1 for Rock</li>
+<li>Type 2 for Paper</li>
+<li>Type 3 for Scissors</li>
+<li>Type 4 for Lizard</li>
+<li>Type 5 for Spock</li>  
 </ul>
 <body>
  <script src="game.js"></script> 
