@@ -25,7 +25,7 @@
 <p id="demo"></p>
 
 <p>
- <button type="button" onclick= "start()">Start</button>
+ <button type="button" onclick= "myFunction()">Start</button>
 </p>
 
 
