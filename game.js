@@ -13,6 +13,8 @@ var computerChoice = null
 <script>
 function start() {	
 var userchoice = prompt("Please choose (1) Rock, (2) Paper, (3) Scissors, (4) Lizard, or (5) Spock: ").upper()
+  if (person != null) {
+    document.getElementById("demo").innerHTML =
 if (userchoice == 1) {
         userchoice == "rock";
 	set userchoice == choice1;
