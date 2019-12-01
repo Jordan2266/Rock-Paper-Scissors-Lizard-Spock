@@ -9,6 +9,7 @@ var choice2 = null
 var userchoice = null
 var computerChoice = null
 
+<script src="README.md"></script>
 
 <script>
 function start() {	
@@ -58,14 +59,15 @@ if (computerChoice == 1) {
 <scrpit>	
 else if (choice1 == "rock") {
     if (choice2 == "scissors") {
-        alert("Rock wins!");
+        alert("User wins!");
     } else if (choice2 == "paper") {
-        alert("Paper wins!");
+        alert("Computer wins!");
     } else if (choice2 == "lizard") {
-        alert("Rock wins!");
-    } else {
-        alert("Spock wins!");
-    }
+        alert("User wins!");
+    } else if (choice2 == "spock") {
+        alert("Computer wins!");
+    } else if (choice2 == "rock") {
+	    alert("Tied");
 }
 </script>
 	
@@ -73,14 +75,15 @@ else if (choice1 == "rock") {
 <Script>	
 else if (choice1 == "paper") {
     if (choice2 == "scissors") {
-        alert("Scissors wins!");
+        alert("Computer wins!");
     } else if (choice2 == "rock") {
-        alert("Paper wins!");
+        alert("User wins!");
     } else if (choice2 == "lizard") {
-        alert("Lizard wins!");
-    } else {
-        alert("Paper wins!");
-    }
+        alert("Computer wins!");
+    } else if (choice2 == "spock") {
+        alert("User wins!");
+    } else if (choice2 == "paper") {
+	    alert("Tied");
 }
 </script>
 	
@@ -88,14 +91,15 @@ else if (choice1 == "paper") {
 <script>
 else if (choice1 == "scissors") {
     if (choice2 == "paper") {
-        alert("Scissors wins!");
+        alert("User wins!");
     } else if (choice2 == "rock") {
-        alert("Rock wins!");
+        alert("Computer wins!");
     } else if (choice2 == "lizard") {
-        alert("Scissors wins!");
-    } else {
-        alert("Spock wins!");
-    }
+        alert("User wins!");
+    } else if (choice2 == "spock" ) {
+        alert("Computer wins!");
+    } else if (choice2 == "scissors") {
+	    alert("Tied");
 }
 </script>
 	
@@ -103,14 +107,15 @@ else if (choice1 == "scissors") {
 <script>	
 else if (choice1 == "lizard") {
     if (choice2 == "scissors") {
-        alert("Scissors wins!");
+        alert("Computer wins!");
     } else if (choice2 == "rock") {
-        alert("Rock wins!");
+        alert("Computer wins!");
     } else if (choice2 == "paper") {
-        alert("Lizard wins!");
-    } else {
-        alert("Lizard wins!");
-    }
+        alert("User wins!");
+    } else if (choice2 == "spock") { 
+        alert("User wins!");
+    } else if (choice2 == "lizard") {
+	    alert("Tied");
 }
 </script>
 	
@@ -118,14 +123,15 @@ else if (choice1 == "lizard") {
 <script>	
 else if (choice1 == "spock") {
     if (choice2 == "scissors") {
-        alert("Spock wins!");
+        alert("User wins!");
     } else if (choice2 == "rock") {
-        alert("Spock wins!");
+        alert("User wins!");
     } else if (choice2 == "lizard") {
-        alert("Lizard wins!");
-    } else {
-        alert("Paper wins!");
-    }
+        alert("Computer wins!");
+    } else if (choice2 == "paper") {
+        alert("Computer wins!");
+    } else if (choice2 == "spock") {
+	    alert("Tied");
 }
 };
 }
