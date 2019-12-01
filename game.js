@@ -13,9 +13,10 @@ var computerChoice = null
  <button type="button" onclick= "myFunction()">Start</button>
 
 <script>
-function myFunction(var userchoice = prompt("Please choose (1) Rock, (2) Paper, (3) Scissors, (4) Lizard, or (5) Spock: ").upper()) {	
-  if (person != null) {
-    document.getElementById("demo").innerHTML =
+function myFunction(Start).upper())
+ var userchoice = prompt("Please choose (1) Rock, (2) Paper, (3) Scissors, (4) Lizard, or (5) Spock: "{	
+  if (prompt != null) {
+	document.getElementById("demo").innerHTML =
 if (userchoice == 1) {
         userchoice == "rock";
 	set userchoice == choice1;
@@ -31,6 +32,7 @@ if (userchoice == 1) {
 } else if (userchoice == 5) {
         userchoice == "spock";
 	set userchoice == choice1;
+}
 </script>
 	
 <script>
@@ -48,7 +50,7 @@ if (computerChoice == 1) {
 } else if (computerChoice == 4) {
     computerChoice = "lizard";
 	set computerChoice == choice2;
-} else {
+} else if (computerChoice == 5)
     computerChoice = "spock";
 	set computerChoice == choice2;
 }
