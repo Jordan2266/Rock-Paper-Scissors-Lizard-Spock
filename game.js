@@ -10,9 +10,10 @@ var userchoice = null
 var computerChoice = null
 
 <script src="README.md"></script>
+ <button type="button" onclick= "myFunction()">Start</button>
 
 <script>
-function start() {	
+function myFunction() {	
 var userchoice = prompt("Please choose (1) Rock, (2) Paper, (3) Scissors, (4) Lizard, or (5) Spock: ").upper()
   if (person != null) {
     document.getElementById("demo").innerHTML =
