@@ -22,7 +22,7 @@
 </body>
 <p id="demo"></p>
 <p>
- <button onclick= "start()">Start</button>
+ <button type="button" onclick= "start()">Start</button>
 </p>
 
 
