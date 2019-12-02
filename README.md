@@ -24,7 +24,9 @@
 
 <p id="demo"></p>
 
+<body>
 <script src="https://raw.githubusercontent.com/Jordan2266/Rock-Paper-Scissors-Lizard-Spock/master/game.js"></script>
+</body>
 
 <script>
 function myFunction(start) {
