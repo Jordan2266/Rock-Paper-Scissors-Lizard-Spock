@@ -13,7 +13,7 @@ var computerChoice = null
  <button type="button" onclick= "myFunction()">Start</button>
 
 <script>
-function myFunction( var userchoice = prompt("Please choose (1) Rock, (2) Paper, (3) Scissors, (4) Lizard, or (5) Spock: ").upper()
+function myFunction().upper()
 	document.getElementById("demo").innerHTML =
 if (userchoice == 1) {
         userchoice == "rock";
