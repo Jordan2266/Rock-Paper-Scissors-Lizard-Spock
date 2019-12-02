@@ -26,7 +26,7 @@
 
 <script>
 function myFunction(start) {
-  <script src="game.js"</script>
+  <script type="text/Javascript" src ="game.js>"</script>
   var input = prompt("Please choose (1) Rock, (2) Paper, (3) Scissors, (4) Lizard, or (5) Spock:");
   if (input != null) {
     document.getElementById("demo").innerHTML =
