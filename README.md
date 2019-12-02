@@ -18,14 +18,16 @@
 <li>Type 5 for Spock</li>  
 </ul>
 
-<body>
- <script src="game.js"></script> 
-</body>
+<button onclick="myFunction()">Start</button>
 
 <p id="demo"></p>
 
-<p>
- <button type="button" onclick= "myFunction(Start)">Start</button>
-</p>
+<script>
+function myFunction() {
+  var person = prompt("Please choose (1) Rock, (2) Paper, (3) Scissors, (4) Lizard, or (5) Spock:");
+  if (person != null) {
+    document.getElementById("demo").innerHTML =
+  }
+}
 
 
