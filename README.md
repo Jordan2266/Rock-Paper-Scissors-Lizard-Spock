@@ -20,18 +20,17 @@
 <li>Type 5 for Spock</li>  
 </ul>
 
-<button type="button" onclick="myFunction">Start</button>
+<button onclick="myFunction()">Start</button>
 
 <p id="demo"></p>
 
 <script>
-function myFunction(start) {
-  <script type="text/Javascript" src ="game.js>"</script>
-  var input = prompt("Please choose (1) Rock, (2) Paper, (3) Scissors, (4) Lizard, or (5) Spock:");
-  if (input != null) {
+function myFunction() {
+  var userinput = prompt("Please enter a sign.");
+  if (userinput != null) {
     document.getElementById("demo").innerHTML =
-    alert("You have chosen " + input);
+    alert("You have chosen " + userinput);
   }
-}  
+}
 </script>
 
