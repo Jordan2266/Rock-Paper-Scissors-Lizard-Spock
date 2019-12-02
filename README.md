@@ -30,6 +30,21 @@ function myFunction() {
   if (userinput != null) {
     document.getElementById("demo").innerHTML =
     alert("You have chosen " + userinput);
+  if (userchoice == 1) {
+        userchoice == "rock";
+} else if (userchoice == 2) {
+	userchoice == "paper";
+	set userchoice == choice1;
+} else if (userchoice == 3) {
+        userchoice == "scissors";
+	set userchoice == choice1;
+} else if (userchoice == 4) {
+        userchoice == "lizard";
+	set userchoice == choice1;
+} else if (userchoice == 5) {
+        userchoice == "spock";
+	set userchoice == choice1;
+}
   }
 }
 </script>
