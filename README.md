@@ -20,9 +20,6 @@
 <li>Type 5 for Spock</li>  
 </ul>
 
-<script src="game.js">
-</script>
-
 <button onclick="myFunction(start)">Start</button>
 
 <p id="demo"></p>
