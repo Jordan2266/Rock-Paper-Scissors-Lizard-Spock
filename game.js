@@ -17,7 +17,6 @@ function myFunction( var userchoice = prompt("Please choose (1) Rock, (2) Paper,
 	document.getElementById("demo").innerHTML =
 if (userchoice == 1) {
         userchoice == "rock";
-	set userchoice == choice1;
 } else if (userchoice == 2) {
 	userchoice == "paper";
 	set userchoice == choice1;
