@@ -24,6 +24,8 @@
 
 <p id="demo"></p>
 
+<script src="https://raw.githubusercontent.com/Jordan2266/Rock-Paper-Scissors-Lizard-Spock/master/game.js"></script>
+
 <script>
 function myFunction(start) {
   var input = prompt("Please choose (1) Rock, (2) Paper, (3) Scissors, (4) Lizard, or (5) Spock:");
