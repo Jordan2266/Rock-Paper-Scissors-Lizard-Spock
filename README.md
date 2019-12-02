@@ -29,7 +29,7 @@ function myFunction() {
   var userinput = prompt("Please enter a sign.");
   if (userinput != null) {
     document.getElementById("demo").innerHTML =
-  (userchoice == 1) {
+}    (userchoice == 1) {
         alert("You have chosen Rock";
 } else if (userchoice == 2) {
 	alert("You have chosen Paper";
