@@ -20,7 +20,7 @@
 <li>Type 5 for Spock</li>  
 </ul>
 
-<button onclick="myFunction(start)">Start</button>
+<button type="button" onclick="myFunction">Start</button>
 
 <p id="demo"></p>
 
