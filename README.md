@@ -31,18 +31,18 @@ function myFunction() {
     document.getElementById("demo").innerHTML =
     alert("You have chosen " + userinput);
   if (userchoice == 1) {
-        userchoice == "rock";
+        alert("You have chosen Rock";
 } else if (userchoice == 2) {
-	userchoice == "paper";
+	alert("You have chosen Paper";
 	set userchoice == choice1;
 } else if (userchoice == 3) {
-        userchoice == "scissors";
+        alert("You have chosen Scissors";
 	set userchoice == choice1;
 } else if (userchoice == 4) {
-        userchoice == "lizard";
+        alert("You have chosen Lizard";
 	set userchoice == choice1;
 } else if (userchoice == 5) {
-        userchoice == "spock";
+        alert("You have chosen Spock";
 	set userchoice == choice1;
 }
   }
