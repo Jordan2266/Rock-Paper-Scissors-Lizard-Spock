@@ -8,7 +8,9 @@
 <li>Lizard beats Spock and Paper</li>
 <li>Spock beats Scissors and Rock</li>  
 </ul>
+
 <p><b>You will play against 1 other player which will be controlled by the computer. The first player to reach a score of 10 will win!</b></p>
+
 <p><b>Controls:</b></p>
 <ul>
 <li>Type 1 for Rock</li>
@@ -17,6 +19,8 @@
 <li>Type 4 for Lizard</li>
 <li>Type 5 for Spock</li>  
 </ul>
+
+<script src ="game.js" </script>
 
 <button onclick="myFunction(start)">Start</button>
 
