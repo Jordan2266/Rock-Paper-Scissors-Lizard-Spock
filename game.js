@@ -1,4 +1,5 @@
-	
+<script src="README.md"></script>
+
 var 1 = "rock" 
 var 2 = "paper"
 var 3 = "scissors"
@@ -9,11 +10,9 @@ var choice2 = null
 var userchoice = null
 var computerChoice = null
 
-<script src="README.md"></script>
- <button type="button" onclick= "myFunction()">Start</button>
 
 <script>
-function myFunction().upper()
+function myFunction(start).upper()
 	document.getElementById("demo").innerHTML =
 if (userchoice == 1) {
         userchoice == "rock";
