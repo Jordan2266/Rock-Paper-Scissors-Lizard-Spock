@@ -18,16 +18,16 @@
 <li>Type 5 for Spock</li>  
 </ul>
 
-<button onclick="myFunction()">Start</button>
+<button onclick="myFunction(start)">Start</button>
 
 <p id="demo"></p>
 
 <script>
-function myFunction() {
-  var person = prompt("Please choose (1) Rock, (2) Paper, (3) Scissors, (4) Lizard, or (5) Spock:");
-  if (person != null) {
+function myFunction(start) {
+  var input = prompt("Please choose (1) Rock, (2) Paper, (3) Scissors, (4) Lizard, or (5) Spock:");
+  if (input != null) {
     document.getElementById("demo").innerHTML =
   }
 }
-
+</script>
 
