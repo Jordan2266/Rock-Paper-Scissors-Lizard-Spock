@@ -1,5 +1,3 @@
-<script src="README.md"></script>
-
 var 1 = "rock" 
 var 2 = "paper"
 var 3 = "scissors"
